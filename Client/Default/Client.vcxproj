@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{29B0E8FC-206B-4893-BAED-251F37166CCE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Client\Bin\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\Client\</IntDir>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Client\Bin\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\Client\</IntDir>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Client\Codes;$(SolutionDir)Client\Headers;$(SolutionDir)Reference\Headers;$(SolutionDir)Client\Default;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Reference\Libraries\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Client\Codes;$(SolutionDir)Client\Headers;$(SolutionDir)Reference\Headers;$(SolutionDir)Client\Default;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Reference\Libraries\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\Back_Logo.h" />
+    <ClInclude Include="..\Codes\MainApp.h" />
+    <ClInclude Include="..\Codes\Scene_Logo.h" />
+    <ClInclude Include="..\Headers\Balrog.h" />
+    <ClInclude Include="..\Headers\Balrog_Breath.h" />
+    <ClInclude Include="..\Headers\Balrog_Chase.h" />
+    <ClInclude Include="..\Headers\Balrog_Dead.h" />
+    <ClInclude Include="..\Headers\Balrog_Electric_Whip.h" />
+    <ClInclude Include="..\Headers\Balrog_Fire_Ring.h" />
+    <ClInclude Include="..\Headers\Balrog_Idle.h" />
+    <ClInclude Include="..\Headers\Balrog_Kick.h" />
+    <ClInclude Include="..\Headers\Balrog_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Balrog_Wait.h" />
+    <ClInclude Include="..\Headers\Blood.h" />
+    <ClInclude Include="..\Headers\Camera_At.h" />
+    <ClInclude Include="..\Headers\Camera_CutScene.h" />
+    <ClInclude Include="..\Headers\Camera_Default.h" />
+    <ClInclude Include="..\Headers\Camera_Dynamic.h" />
+    <ClInclude Include="..\Headers\Camera_Eye.h" />
+    <ClInclude Include="..\Headers\Camera_Static.h" />
+    <ClInclude Include="..\Headers\Collision_Manager.h" />
+    <ClInclude Include="..\Headers\Damage.h" />
+    <ClInclude Include="..\Headers\Defines.h" />
+    <ClInclude Include="..\Headers\Direction_Arrow.h" />
+    <ClInclude Include="..\Headers\Effect.h" />
+    <ClInclude Include="..\Headers\EffectGroup.h" />
+    <ClInclude Include="..\Headers\Effect_Mesh.h" />
+    <ClInclude Include="..\Headers\Effect_Particle.h" />
+    <ClInclude Include="..\Headers\Effect_Rect.h" />
+    <ClInclude Include="..\Headers\ExclamationMark.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_DownAndUp.h" />
+    <ClInclude Include="..\Headers\Lups_DownAndUp.h" />
+    <ClInclude Include="..\Headers\Meteo_Strike.h" />
+    <ClInclude Include="..\Headers\Sire_DownAndUp.h" />
+    <ClInclude Include="..\Headers\Sire_End_Combat.h" />
+    <ClInclude Include="..\Headers\Sire_FireShock.h" />
+    <ClInclude Include="..\Headers\Flogas.h" />
+    <ClInclude Include="..\Headers\Flogas_Attack.h" />
+    <ClInclude Include="..\Headers\Flogas_Chase.h" />
+    <ClInclude Include="..\Headers\Flogas_FireSpurt.h" />
+    <ClInclude Include="..\Headers\Flogas_Dead.h" />
+    <ClInclude Include="..\Headers\Flogas_Idle.h" />
+    <ClInclude Include="..\Headers\Flogas_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Flogas_Earthquake.h" />
+    <ClInclude Include="..\Headers\Flogas_Stab.h" />
+    <ClInclude Include="..\Headers\Flogas_Summon.h" />
+    <ClInclude Include="..\Headers\Flogas_Wait.h" />
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Boss.h" />
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Boss_End.h" />
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Combat.h" />
+    <ClInclude Include="..\Headers\GameEvent_Manager.h" />
+    <ClInclude Include="..\Headers\GameEvent_Opening.h" />
+    <ClInclude Include="..\Headers\GameEvent.h" />
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Combat_End.h" />
+    <ClInclude Include="..\Headers\GameEvent_Stage2_Flogas.h" />
+    <ClInclude Include="..\Headers\GameEvent_Stage2_Opening.h" />
+    <ClInclude Include="..\Headers\GameEvent_Stage2_Quatra.h" />
+    <ClInclude Include="..\Headers\GameObject_Monster.h" />
+    <ClInclude Include="..\Headers\GameObject_Player.h" />
+    <ClInclude Include="..\Headers\GameObject_Weapon.h" />
+    <ClInclude Include="..\Headers\Gate.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_Attack.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_Chase.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_IceBolt.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_Dead.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_Hit.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_Idle.h" />
+    <ClInclude Include="..\Headers\Ghost_Mage_Wait.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_Attack.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_Chase.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_DownAndUp.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_Dead.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_Hit.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_Idle.h" />
+    <ClInclude Include="..\Headers\Ghost_Soldier_Wait.h" />
+    <ClInclude Include="..\Headers\HitFire.h" />
+    <ClInclude Include="..\Headers\IceBolt.h" />
+    <ClInclude Include="..\Headers\Light_Fire.h" />
+    <ClInclude Include="..\Headers\Lups_AI.h" />
+    <ClInclude Include="..\Headers\Lups_Attack.h" />
+    <ClInclude Include="..\Headers\Lups_End_Combat.h" />
+    <ClInclude Include="..\Headers\Lups_Guard.h" />
+    <ClInclude Include="..\Headers\Lups_Hit.h" />
+    <ClInclude Include="..\Headers\Lups_Idle.h" />
+    <ClInclude Include="..\Headers\Lups_General.h" />
+    <ClInclude Include="..\Headers\Lups_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Lups_Shield_Smash.h" />
+    <ClInclude Include="..\Headers\Lups_Taunt.h" />
+    <ClInclude Include="..\Headers\Masq.h" />
+    <ClInclude Include="..\Headers\Monster_HpBar.h" />
+    <ClInclude Include="..\Headers\Player_Manager.h" />
+    <ClInclude Include="..\Headers\Quatra.h" />
+    <ClInclude Include="..\Headers\Quatra_Breath.h" />
+    <ClInclude Include="..\Headers\Quatra_Breath_End.h" />
+    <ClInclude Include="..\Headers\Quatra_Breath_Start.h" />
+    <ClInclude Include="..\Headers\Quatra_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Quatra_Wait.h" />
+    <ClInclude Include="..\Headers\Scene_Stage2.h" />
+    <ClInclude Include="..\Headers\Shield.h" />
+    <ClInclude Include="..\Headers\Lups_Spin_Attack.h" />
+    <ClInclude Include="..\Headers\Sire.h" />
+    <ClInclude Include="..\Headers\Sire_AI.h" />
+    <ClInclude Include="..\Headers\Sire_Heal.h" />
+    <ClInclude Include="..\Headers\Sire_Heal_Target.h" />
+    <ClInclude Include="..\Headers\Sire_Hit.h" />
+    <ClInclude Include="..\Headers\Sire_Ready_FireBall.h" />
+    <ClInclude Include="..\Headers\Sire_Cast_FireBall.h" />
+    <ClInclude Include="..\Headers\Sire_General.h" />
+    <ClInclude Include="..\Headers\Sire_Idle.h" />
+    <ClInclude Include="..\Headers\Sire_Meteo_Strike.h" />
+    <ClInclude Include="..\Headers\Sire_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Sire_Meteo_Target.h" />
+    <ClInclude Include="..\Headers\Sire_Ready_Meteo.h" />
+    <ClInclude Include="..\Headers\Skeleton.h" />
+    <ClInclude Include="..\Headers\Skeleton_Attack.h" />
+    <ClInclude Include="..\Headers\Skeleton_Chase.h" />
+    <ClInclude Include="..\Headers\Skeleton_Crack.h" />
+    <ClInclude Include="..\Headers\Skeleton_Dead.h" />
+    <ClInclude Include="..\Headers\Skeleton_Idle.h" />
+    <ClInclude Include="..\Headers\Skeleton_Ready_Combat.h" />
+    <ClInclude Include="..\Headers\Skeleton_Spell.h" />
+    <ClInclude Include="..\Headers\Skeleton_Stab.h" />
+    <ClInclude Include="..\Headers\Skeleton_Wait.h" />
+    <ClInclude Include="..\Headers\Staff.h" />
+    <ClInclude Include="..\Headers\Sword.h" />
+    <ClInclude Include="..\Headers\Loading.h" />
+    <ClInclude Include="..\Headers\Lups.h" />
+    <ClInclude Include="..\Headers\GameObject_Dynamic.h" />
+    <ClInclude Include="..\Headers\Scene_Stage.h" />
+    <ClInclude Include="..\Headers\SkyBox.h" />
+    <ClInclude Include="..\Headers\GameObject_Static.h" />
+    <ClInclude Include="..\Headers\Terrain.h" />
+    <ClInclude Include="..\Headers\Title_Logo.h" />
+    <ClInclude Include="..\Headers\Trail.h" />
+    <ClInclude Include="..\Headers\UI.h" />
+    <ClInclude Include="..\Headers\UI_Back.h" />
+    <ClInclude Include="..\Headers\UI_BossBar.h" />
+    <ClInclude Include="..\Headers\UI_BossMask.h" />
+    <ClInclude Include="..\Headers\UI_Frame.h" />
+    <ClInclude Include="..\Headers\UI_Bar.h" />
+    <ClInclude Include="..\Headers\UI_Icon.h" />
+    <ClInclude Include="..\Headers\UI_IconMask.h" />
+    <ClInclude Include="..\Headers\UI_Mask.h" />
+    <ClInclude Include="..\Headers\UI_Resources_Loader.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Effect_QuatraBreath.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Terrain_Stage2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Sire_Heal.cpp" />
+    <ClCompile Include="..\Codes\Back_Logo.cpp" />
+    <ClCompile Include="..\Codes\Balrog.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Breath.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Chase.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Dead.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Electric_Whip.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Fire_Ring.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Idle .cpp" />
+    <ClCompile Include="..\Codes\Balrog_Kick.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Balrog_Wait.cpp" />
+    <ClCompile Include="..\Codes\Blood.cpp" />
+    <ClCompile Include="..\Codes\Camera_At.cpp" />
+    <ClCompile Include="..\Codes\Camera_CutScene.cpp" />
+    <ClCompile Include="..\Codes\Camera_Default.cpp" />
+    <ClCompile Include="..\Codes\Camera_Dynamic.cpp" />
+    <ClCompile Include="..\Codes\Camera_Eye.cpp" />
+    <ClCompile Include="..\Codes\Camera_Static.cpp" />
+    <ClCompile Include="..\Codes\Client.cpp" />
+    <ClCompile Include="..\Codes\Collision_Manager.cpp" />
+    <ClCompile Include="..\Codes\Damage.cpp" />
+    <ClCompile Include="..\Codes\Direction_Arrow.cpp" />
+    <ClCompile Include="..\Codes\Effect.cpp" />
+    <ClCompile Include="..\Codes\EffectGroup.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh.cpp" />
+    <ClCompile Include="..\Codes\Effect_Particle.cpp" />
+    <ClCompile Include="..\Codes\Effect_Rect.cpp" />
+    <ClCompile Include="..\Codes\ExclamationMark.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_DownAndUp.cpp" />
+    <ClCompile Include="..\Codes\Lups_DownAndUp.cpp" />
+    <ClCompile Include="..\Codes\Meteo_Strike.cpp" />
+    <ClCompile Include="..\Codes\Sire_DownAndUp.cpp" />
+    <ClCompile Include="..\Codes\Sire_End_Combat.cpp" />
+    <ClCompile Include="..\Codes\Sire_FireShock.cpp" />
+    <ClCompile Include="..\Codes\Flogas.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Attack.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Chase.cpp" />
+    <ClCompile Include="..\Codes\Flogas_FireSpurt.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Dead.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Idle.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Earthquake.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Stab.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Summon.cpp" />
+    <ClCompile Include="..\Codes\Flogas_Wait.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Manager.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Opening.cpp" />
+    <ClCompile Include="..\Codes\GameEvent.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Boss.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Boss_End.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Combat.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Combat_End.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Stage2_Flogas.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Stage2_Opening.cpp" />
+    <ClCompile Include="..\Codes\GameEvent_Stage2_Quatra.cpp" />
+    <ClCompile Include="..\Codes\GameObject_Monster.cpp" />
+    <ClCompile Include="..\Codes\GameObject_Player.cpp" />
+    <ClCompile Include="..\Codes\GameObject_Weapon.cpp" />
+    <ClCompile Include="..\Codes\Gate.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_Attack.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_Chase.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_IceBolt.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_Dead.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_Hit.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_Idle.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Mage_Wait.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_Attack.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_Chase.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_DownAndUp.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_Dead.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_Hit.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_Idle.cpp" />
+    <ClCompile Include="..\Codes\Ghost_Soldier_Wait.cpp" />
+    <ClCompile Include="..\Codes\HitFire.cpp" />
+    <ClCompile Include="..\Codes\IceBolt.cpp" />
+    <ClCompile Include="..\Codes\Light_Fire.cpp" />
+    <ClCompile Include="..\Codes\Lups_AI.cpp" />
+    <ClCompile Include="..\Codes\Lups_Attack.cpp" />
+    <ClCompile Include="..\Codes\Lups_End_Combat.cpp" />
+    <ClCompile Include="..\Codes\Lups_Guard.cpp" />
+    <ClCompile Include="..\Codes\Lups_Hit.cpp" />
+    <ClCompile Include="..\Codes\Lups_Idle.cpp" />
+    <ClCompile Include="..\Codes\Lups_General.cpp" />
+    <ClCompile Include="..\Codes\Lups_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Lups_Shield_Smash.cpp" />
+    <ClCompile Include="..\Codes\Lups_Taunt.cpp" />
+    <ClCompile Include="..\Codes\Masq.cpp" />
+    <ClCompile Include="..\Codes\Monster_HpBar.cpp" />
+    <ClCompile Include="..\Codes\Player_Manager.cpp" />
+    <ClCompile Include="..\Codes\Quatra.cpp" />
+    <ClCompile Include="..\Codes\Quatra_Breath.cpp" />
+    <ClCompile Include="..\Codes\Quatra_Breath_End.cpp" />
+    <ClCompile Include="..\Codes\Quatra_Breath_Start.cpp" />
+    <ClCompile Include="..\Codes\Quatra_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Quatra_Wait.cpp" />
+    <ClCompile Include="..\Codes\Scene_Stage2.cpp" />
+    <ClCompile Include="..\Codes\Shield.cpp" />
+    <ClCompile Include="..\Codes\Lups_Spin_Attack.cpp" />
+    <ClCompile Include="..\Codes\Sire.cpp" />
+    <ClCompile Include="..\Codes\Sire_AI.cpp" />
+    <ClCompile Include="..\Codes\Sire_Heal_Target.cpp" />
+    <ClCompile Include="..\Codes\Sire_Hit.cpp" />
+    <ClCompile Include="..\Codes\Sire_Ready_FireBall.cpp" />
+    <ClCompile Include="..\Codes\Sire_Cast_FireBall.cpp" />
+    <ClCompile Include="..\Codes\Sire_General.cpp" />
+    <ClCompile Include="..\Codes\Sire_Idle.cpp" />
+    <ClCompile Include="..\Codes\Sire_Meteo_Strike.cpp" />
+    <ClCompile Include="..\Codes\Sire_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Sire_Meteo_Target.cpp" />
+    <ClCompile Include="..\Codes\Sire_Ready_Meteo.cpp" />
+    <ClCompile Include="..\Codes\Skeleton.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Attack.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Chase.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Crack.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Dead.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Idle.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Ready_Combat.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Spell.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Stab.cpp" />
+    <ClCompile Include="..\Codes\Skeleton_Wait.cpp" />
+    <ClCompile Include="..\Codes\Staff.cpp" />
+    <ClCompile Include="..\Codes\Sword.cpp" />
+    <ClCompile Include="..\Codes\Loading.cpp" />
+    <ClCompile Include="..\Codes\Lups.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp" />
+    <ClCompile Include="..\Codes\GameObject_Dynamic.cpp" />
+    <ClCompile Include="..\Codes\Scene_Logo.cpp" />
+    <ClCompile Include="..\Codes\Scene_Stage.cpp" />
+    <ClCompile Include="..\Codes\SkyBox.cpp" />
+    <ClCompile Include="..\Codes\GameObject_Static.cpp" />
+    <ClCompile Include="..\Codes\Terrain.cpp" />
+    <ClCompile Include="..\Codes\Title_Logo.cpp" />
+    <ClCompile Include="..\Codes\Trail.cpp" />
+    <ClCompile Include="..\Codes\UI.cpp" />
+    <ClCompile Include="..\Codes\UI_Back.cpp" />
+    <ClCompile Include="..\Codes\UI_BossBar.cpp" />
+    <ClCompile Include="..\Codes\UI_BossMask.cpp" />
+    <ClCompile Include="..\Codes\UI_Frame.cpp" />
+    <ClCompile Include="..\Codes\UI_Bar.cpp" />
+    <ClCompile Include="..\Codes\UI_Icon.cpp" />
+    <ClCompile Include="..\Codes\UI_IconMask.cpp" />
+    <ClCompile Include="..\Codes\UI_Mask.cpp" />
+    <ClCompile Include="..\Codes\UI_Resources_Loader.cpp" />
+    <ClCompile Include="Effect_QuatraBreath.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Terrain_Stage2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Damage.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Deafult.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Effect.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Logo.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Mesh.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Monster_UI.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_SkyBox.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Terrain.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Trail.fx" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_UI.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

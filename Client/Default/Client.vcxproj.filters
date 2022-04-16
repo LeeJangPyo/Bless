@@ -1,0 +1,1479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{557ffc42-21fd-4f7e-a178-4dd9958963f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{66b4f27b-1532-4eb0-b525-600a3c5b50a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{599c2f86-bcb3-4f9c-a8c5-a102129a751a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{44e448d7-1511-4532-a401-2827cda794dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static">
+      <UniqueIdentifier>{cd9468c6-ce9a-4da0-9568-556c16df9f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Logo">
+      <UniqueIdentifier>{c39ad3af-2244-4c55-8e8e-f6e9c3bc3da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage">
+      <UniqueIdentifier>{a8c85237-e9a3-43a9-8cbd-09d2f822c4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{fe5f4d10-dff1-47d0-a3fc-43352d0d83bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Logo">
+      <UniqueIdentifier>{8ef9b718-5318-4ede-9e6c-f95cfb324a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Stage">
+      <UniqueIdentifier>{4d260bd6-87a2-46d1-9bad-7d7c7fa79381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Loading">
+      <UniqueIdentifier>{1800b66b-5f36-40f3-963a-af8528dc5c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\00.Terrain">
+      <UniqueIdentifier>{c867e636-6f47-410d-a30d-60ec4d4fbe6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\00.Camera">
+      <UniqueIdentifier>{61f6a7bf-e765-42c8-92e2-ed0a9a574e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\01.SkyBox">
+      <UniqueIdentifier>{a03ad84d-a809-4525-8ef4-3ee88e7f8fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player">
+      <UniqueIdentifier>{cafdf098-c67d-40c2-ac51-09daf69d9ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Shader">
+      <UniqueIdentifier>{6c9d91db-0e5d-4cc8-92c9-91184cd290d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Abstract">
+      <UniqueIdentifier>{a809fba9-96d4-4059-a753-3701a8abda72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Abstract\00.GameObject_Dyanmic">
+      <UniqueIdentifier>{cc81dee5-40be-40b4-82e6-3bcb10848de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\00.Camera\01.Camera_Static">
+      <UniqueIdentifier>{3667e2ee-abe8-4adf-98be-6048a2a2e6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent">
+      <UniqueIdentifier>{bcbdb559-f90e-4e22-99a6-fa24c6d6349a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\00.GameEvent_Manager">
+      <UniqueIdentifier>{d80d20d0-2426-4543-8c01-016750bf7ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI">
+      <UniqueIdentifier>{391ef3e6-1f7b-4bca-b87a-21ad28af9e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\00.UI_Frame">
+      <UniqueIdentifier>{d294ad0c-ad6b-4346-a343-7b39d0ae6ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI">
+      <UniqueIdentifier>{60a8c39a-4144-4fcd-81d9-9040b52714b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\02.UI_Resources_Loader">
+      <UniqueIdentifier>{3148d6cf-3692-4958-813d-fb3ba5a82361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\00.Camera\02.Camera_Dynamic">
+      <UniqueIdentifier>{870e1a95-7972-4d50-9073-167c7a648bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster">
+      <UniqueIdentifier>{abac9c87-7fae-4260-be34-f136dc91ef64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier">
+      <UniqueIdentifier>{7221c3a8-760f-450c-a886-ec318acb465f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State">
+      <UniqueIdentifier>{1037026e-1c3a-4044-a959-24b0a763ebcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager">
+      <UniqueIdentifier>{34e8fb04-0aeb-4297-8dce-a7704bf721a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\03.Damage">
+      <UniqueIdentifier>{48d7ff3f-29f3-4716-93b7-7d5fcb1018fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Manager\00.Collision_Manager">
+      <UniqueIdentifier>{fbd7564d-5e44-41f0-b5b7-88229c1d7bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage">
+      <UniqueIdentifier>{6e30463f-9243-46f0-b793-fa042952aca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI\00.Back">
+      <UniqueIdentifier>{30eab48d-498c-43db-9a6c-619ea5a48144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI\01.Bar">
+      <UniqueIdentifier>{67cb53df-2f35-47a0-b11a-279e347c8ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI\02.Mask">
+      <UniqueIdentifier>{fbf4970a-ada7-41a8-a092-5b21d7696904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Abstract\01.GameObject_Weapon">
+      <UniqueIdentifier>{10f14319-324c-400a-9e47-c9fc117e8ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog">
+      <UniqueIdentifier>{0fe25cba-dd88-46bc-b86a-a1dcce3968fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI\03.Icon">
+      <UniqueIdentifier>{d4c6f52a-2275-4632-af40-8d8f81b16bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI\04.IconMask">
+      <UniqueIdentifier>{498745aa-c4e8-41f4-a835-e2eaf2cb8b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Abstract\03.GameObject_Static">
+      <UniqueIdentifier>{9cf14a8f-919c-4836-a271-37ff23a85077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Wait">
+      <UniqueIdentifier>{57fd06f5-4c41-4956-ac54-67f2599d3eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Chase">
+      <UniqueIdentifier>{66c43b77-b9f8-4389-9ba1-614770f94062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Dead">
+      <UniqueIdentifier>{6eaf2aeb-cd9b-4a7a-a351-1ba2f851f17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Idle">
+      <UniqueIdentifier>{a93191c5-3646-48f9-be9d-444691eac45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Ready_Combat">
+      <UniqueIdentifier>{c2cf8703-1db6-477a-8926-29c72eeebfb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Breath">
+      <UniqueIdentifier>{eb776e47-5ebe-4253-8acc-8e2d34f5cb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Electric_Whip">
+      <UniqueIdentifier>{15a2f7da-90b3-4235-b268-5df6c0724e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Fire_Ring">
+      <UniqueIdentifier>{bd2988ea-57ad-48e9-873f-68cfcf5b356b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\02.Balrog\Kick">
+      <UniqueIdentifier>{0d17eae3-a651-4d9f-bd84-665e78778dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect">
+      <UniqueIdentifier>{847c689e-fffe-493b-a721-0a5bf3df6167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI\05.BossBar">
+      <UniqueIdentifier>{c011af80-7d1f-40c7-ae1d-5c7ad4f94816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\03.UI\01.UI\06.BossMask">
+      <UniqueIdentifier>{e95da5b2-ea69-4084-b3a8-6c6e177e85ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\00.EffectGroup">
+      <UniqueIdentifier>{afebd33d-4cc0-4929-a412-4c7d20a3722a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29">
+      <UniqueIdentifier>{1929a48b-e24e-44f7-bcc8-dc8dee39e3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State">
+      <UniqueIdentifier>{738b7377-adc0-45fe-8cfc-cfa6744e5f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29">
+      <UniqueIdentifier>{9a1f6319-254d-40ae-a998-4a06cbf599c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\03.Masq%28Healer%29">
+      <UniqueIdentifier>{64434d0e-54c5-43f4-88b6-da7b372108ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\00.Player_Manager">
+      <UniqueIdentifier>{4813fa51-c4d6-4e7f-a098-598f8274cc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State">
+      <UniqueIdentifier>{f161dc2e-0cf5-4fa7-8c96-9451938c5610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Abstract\04.GameObject_Player">
+      <UniqueIdentifier>{dc6ca868-1294-4e53-ad81-1503c85dbd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton">
+      <UniqueIdentifier>{b4daa567-27eb-494d-8e1c-ee3dce7c75bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State">
+      <UniqueIdentifier>{e44f1497-44e4-443f-aa74-950ffe28c057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Ready_Combat">
+      <UniqueIdentifier>{be779eb0-ae98-49c7-89fa-b38415caf1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Attack">
+      <UniqueIdentifier>{83b7ae13-1582-46b8-8973-554542f77e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Idle">
+      <UniqueIdentifier>{59b21724-cdca-4d5f-bd11-09d7accb38fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Dead">
+      <UniqueIdentifier>{bcb88116-ace5-4264-a3e5-b0929545f3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Crack">
+      <UniqueIdentifier>{f7b78f96-1ea9-4885-947f-d5ad504c04ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Spell">
+      <UniqueIdentifier>{d3997c6f-c34a-4fa4-a7c1-f908fb779b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Chase">
+      <UniqueIdentifier>{10a780b9-bd29-4163-a0b0-10a263accbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Wait">
+      <UniqueIdentifier>{792badc9-dc80-45d5-a2b8-069eae832b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\00.Camera\03.Camera_CutScene">
+      <UniqueIdentifier>{525a10bc-aceb-456a-b963-f70355738be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\00.Camera\03.Camera_CutScene\00.Eye">
+      <UniqueIdentifier>{9ad9196b-f0d6-49f6-b18c-6130b9b4e3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\00.Camera\03.Camera_CutScene\01.At">
+      <UniqueIdentifier>{3b76118e-d422-401d-bf63-d6103a1ed366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Stab">
+      <UniqueIdentifier>{cce8dc5c-3797-4d87-8d05-ecf525a585ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\01.Stage1">
+      <UniqueIdentifier>{a7451c05-442b-42ba-a204-67f0039f902d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\01.Stage1\00.Opening">
+      <UniqueIdentifier>{8095a90c-c587-4f4a-9a89-926e5f25cb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Ready_Combat">
+      <UniqueIdentifier>{37747d40-7582-4f78-9baf-1f068385253e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\01.Stage1\02.Boss">
+      <UniqueIdentifier>{cab750ad-5643-4ac5-92d5-f2ef4f3467a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\00.Terrain\Terrain_Stage2">
+      <UniqueIdentifier>{481ad4f0-9d39-4225-93b7-e7a1b4c895dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Stage\Stage2">
+      <UniqueIdentifier>{a5be37f9-94da-4a02-9a5b-f4efd0ace424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Stage\Stage1">
+      <UniqueIdentifier>{6a67a608-560d-48eb-b904-96314f372262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\05.Quatra">
+      <UniqueIdentifier>{4bd084e9-2832-4002-938b-398eac58b51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\05.Quatra\State">
+      <UniqueIdentifier>{ede32da2-5ebc-49d0-8e9b-7a9b353732de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\05.Quatra\State\Wait">
+      <UniqueIdentifier>{f79833a1-3fd6-47d8-8c97-36182ffc8623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath_Start">
+      <UniqueIdentifier>{bc332266-545e-4845-a525-a7af5e1d759a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath_End">
+      <UniqueIdentifier>{8f659853-6106-4826-afdf-a2b735531f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath">
+      <UniqueIdentifier>{46990878-dcef-490b-9aa2-e8eedd29d8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\05.Quatra\State\Ready_Combat">
+      <UniqueIdentifier>{1d7ed37c-b79f-469a-b96c-cf77358d39ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas">
+      <UniqueIdentifier>{4e716c71-5be8-4028-a40e-82da1ed00cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State">
+      <UniqueIdentifier>{74488887-becd-4cf8-a161-0bc951005bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Attack">
+      <UniqueIdentifier>{d9adeb72-b921-45b3-8f21-a1d9565ea358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Chase">
+      <UniqueIdentifier>{caef0a82-4fbe-4017-9c09-04416faee9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Dead">
+      <UniqueIdentifier>{976e7a77-07e0-4168-abcc-01432d7ba3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Idle">
+      <UniqueIdentifier>{66b6f61a-4aef-42fb-af04-1be14d6d98ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Ready_Combat">
+      <UniqueIdentifier>{9419398a-6971-4606-8b28-c30993d9ebe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Wait">
+      <UniqueIdentifier>{35bc8c3f-7a66-4876-b5d7-4d9c892818f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\FireSpurt">
+      <UniqueIdentifier>{2bfa2715-f39e-402c-9fa0-6f39854897e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Earthquake">
+      <UniqueIdentifier>{bb721653-dcdd-48e8-9b93-69af9e0d1a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\Monster_HpBar">
+      <UniqueIdentifier>{22f8a208-3a8e-4937-8a81-a2ddaca3540d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\01.Stage1\01.Combat">
+      <UniqueIdentifier>{88cc0bf1-25f4-4014-b89f-2ed7621a3f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\02.Stage2">
+      <UniqueIdentifier>{8b9e3274-8170-4370-864a-5814c75d58ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\02.Stage2\00.Opening">
+      <UniqueIdentifier>{ad665786-1447-437d-bee2-27448527e67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\02.Stage2\01.Combat">
+      <UniqueIdentifier>{67b672f9-0b6a-40d3-a204-5c27d76550a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\02.Stage2\02.Quatra">
+      <UniqueIdentifier>{fe3e238c-9e52-4588-b19e-165503bc9f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameEvent\02.Stage2\03.Flogas">
+      <UniqueIdentifier>{677d9cca-ff05-4469-873c-1da8adf233c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Abstract\05.GameObject_Monster">
+      <UniqueIdentifier>{b6922921-bd83-4c85-aa48-c776c477c304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Wait">
+      <UniqueIdentifier>{84e94b62-4464-4774-95db-31341b5b6aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Idle">
+      <UniqueIdentifier>{147608ce-f5b5-4f6e-84f2-c67cb8d2761f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Chase">
+      <UniqueIdentifier>{535823b5-8f45-42af-95f8-a5c62cb98e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Attack">
+      <UniqueIdentifier>{4806d102-bc8d-476d-b4ed-2ab1d29214fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Dead">
+      <UniqueIdentifier>{977ea4b3-9ea8-47e3-94b6-fb50c1366ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Hit">
+      <UniqueIdentifier>{dbfe4493-48ed-47a6-941f-325dc98bd384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\DownAndUp">
+      <UniqueIdentifier>{9f339ab8-0b7c-4734-b927-56d925071317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\General">
+      <UniqueIdentifier>{1c8ecd0a-daf1-4f24-9ccd-0bc9287eabcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Ready_Combat">
+      <UniqueIdentifier>{ad734cfe-c6a6-410d-9401-9a10460802c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Idle">
+      <UniqueIdentifier>{875012cc-4bcc-4d9d-bd72-c74b25d44601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Rect">
+      <UniqueIdentifier>{c8737221-a324-4cfe-88de-48eddc87e87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Mesh">
+      <UniqueIdentifier>{8e2d2460-76f1-4367-ab72-3d1c2cec3826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Particle">
+      <UniqueIdentifier>{6c046165-0207-4130-9264-722c5ff3be86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\01.Light_Fire">
+      <UniqueIdentifier>{34ba0de7-876d-478a-82e6-185a38723521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\02.Blood">
+      <UniqueIdentifier>{2fb2223d-21b8-4669-ba13-6a1b045fe298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\03.Gate">
+      <UniqueIdentifier>{12d0e712-ea65-4782-9375-78d7f2e490c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\AI">
+      <UniqueIdentifier>{dc189fed-0350-4437-8946-237f79dabc18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\FireBall">
+      <UniqueIdentifier>{4bf83ce3-401c-4cfe-a058-cb3e5953d14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Meteo_Strike">
+      <UniqueIdentifier>{b4223bb6-9b83-4298-8e70-e4ff9a102551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\03.HitFire">
+      <UniqueIdentifier>{df1ceb91-95e0-4588-be24-64cb1d82b238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\02.Weapon">
+      <UniqueIdentifier>{bcc283b0-dc5c-4be4-99d0-8422df88c22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\02.Weapon\00.Sword">
+      <UniqueIdentifier>{af177ab1-c687-448d-b1a3-a02a012390a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\02.Weapon\01.Shield">
+      <UniqueIdentifier>{65a4211e-c666-42d8-bc57-4e0a8709decc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\02.Weapon\02.Staff">
+      <UniqueIdentifier>{4349bb1a-a13a-4cb9-82a3-53d8b9d45e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\02.Weapon\03.Trail">
+      <UniqueIdentifier>{d46f7ccd-9759-4450-a46b-259512d5b57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Summon">
+      <UniqueIdentifier>{16bbff13-6ae2-4e22-ab66-3fa7a14c4dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\06.Flogas\State\Stab">
+      <UniqueIdentifier>{2af90f3f-994a-459e-b5b6-f97858cb4eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State">
+      <UniqueIdentifier>{a37b96f5-3d2d-4f6e-bf90-40a544172f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Attack">
+      <UniqueIdentifier>{00458092-b2ec-4d9a-bfeb-cfbe92b247a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Chase">
+      <UniqueIdentifier>{737908a3-b435-4510-8dc2-44d59929b203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Dead">
+      <UniqueIdentifier>{e6275f22-b596-4bf3-bb59-7821732e52d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Hit">
+      <UniqueIdentifier>{946d8079-06ed-4658-89b3-d6ed2413f0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\IceBolt">
+      <UniqueIdentifier>{2c113f5f-cdb3-4e88-92ae-d467d85240ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Idle">
+      <UniqueIdentifier>{21ca5f25-264f-45ba-9a35-886f5d9832ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Ready_Combat">
+      <UniqueIdentifier>{0dd3ee2a-1704-4532-bdd6-9f00a341b440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Wait">
+      <UniqueIdentifier>{7a5e304f-2e04-426f-bfa4-b564ae56281d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Taunt">
+      <UniqueIdentifier>{fc56ff6e-5317-421a-9512-a4e352bb0238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Guard">
+      <UniqueIdentifier>{6752f727-8e06-482e-9220-163eaa2b9ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\AI">
+      <UniqueIdentifier>{0f588489-4703-4aab-bdd9-615418facacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Hit">
+      <UniqueIdentifier>{1babc623-730c-4047-898e-419ffe04de86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Spin_Attack">
+      <UniqueIdentifier>{8db8f0ef-c95e-4bb7-895e-efcf01952389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Shield_Smash">
+      <UniqueIdentifier>{22b52b64-024d-4c05-89bc-facc5ab972e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Attack">
+      <UniqueIdentifier>{03dd8b58-4f53-40ff-ad35-81229236440a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Idle">
+      <UniqueIdentifier>{ffd43642-ed6f-4e6a-8ad6-03775a0ab9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Ready_Combat">
+      <UniqueIdentifier>{24bf81ee-e075-495c-aff0-0fac8e4d6179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\General">
+      <UniqueIdentifier>{e52fa221-0011-4c62-a4d0-db8174e496b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\End_Combat">
+      <UniqueIdentifier>{412b5033-0be3-4027-9c50-f4652950807e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\04.Diretion_Arrow">
+      <UniqueIdentifier>{8ec2e43a-2e72-41d3-a66a-70fed1253bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\05.ExclamationMark">
+      <UniqueIdentifier>{e1223f34-8efa-445a-aaf1-b81d357137c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Fire_Shock">
+      <UniqueIdentifier>{ec22cf30-ad39-4158-b4ad-60e2f32d4c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\End_Combat">
+      <UniqueIdentifier>{c82c3908-29e8-496e-bd6b-915c06dcdb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Logo\Back_Logo">
+      <UniqueIdentifier>{83af320b-bf3b-4457-9789-c879886e64e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Logo\Title_Logo">
+      <UniqueIdentifier>{942865b3-0cff-44a0-90fa-f797cfbf38fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\00.Camera\00.Camera_Default">
+      <UniqueIdentifier>{df3eb0ec-e7a5-42af-a65d-aad4b5cf899f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\06.IceBolt">
+      <UniqueIdentifier>{26279a26-1aa4-44d1-81dc-519649a98245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\07.MeteoStrike">
+      <UniqueIdentifier>{aa6ff44b-8d0e-4e6a-b6a4-492d4060511a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Hit">
+      <UniqueIdentifier>{212a359f-2811-4b1d-8485-6dcbf1c85b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\DownAndUp">
+      <UniqueIdentifier>{394cd0c2-2869-4261-9dea-477d112ca112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\DownAndUp">
+      <UniqueIdentifier>{e7531ce1-1448-47c4-9d70-47f4859f0506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\DownAndUp">
+      <UniqueIdentifier>{3ad12386-2c99-4b88-ba7a-10e0aff8e6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Heal">
+      <UniqueIdentifier>{255338e9-4658-4b98-908e-fa21b4e5f64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Static\04.Effect\08.QuatraBreath">
+      <UniqueIdentifier>{ba43ab20-e935-4edb-a297-a9c2c68ed63b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_Logo.h">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain.h">
+      <Filter>02.GameObject\02.Stage\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SkyBox.h">
+      <Filter>02.GameObject\02.Stage\01.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Dynamic.h">
+      <Filter>02.GameObject\00.Static\00.Camera\02.Camera_Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject_Dynamic.h">
+      <Filter>02.GameObject\00.Abstract\00.GameObject_Dyanmic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_CutScene.h">
+      <Filter>02.GameObject\00.Static\00.Camera\03.Camera_CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_At.h">
+      <Filter>02.GameObject\00.Static\00.Camera\03.Camera_CutScene\01.At</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Eye.h">
+      <Filter>02.GameObject\00.Static\00.Camera\03.Camera_CutScene\00.Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent.h">
+      <Filter>03.GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Manager.h">
+      <Filter>03.GameEvent\00.GameEvent_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Loading.h">
+      <Filter>01.Scene\02.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Frame.h">
+      <Filter>02.GameObject\00.Static\03.UI\00.UI_Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Resources_Loader.h">
+      <Filter>02.GameObject\00.Static\03.UI\02.UI_Resources_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Static.h">
+      <Filter>02.GameObject\00.Static\00.Camera\01.Camera_Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Shield.h">
+      <Filter>02.GameObject\00.Static\02.Weapon\01.Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Opening.h">
+      <Filter>03.GameEvent\01.Stage1\00.Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_Wait.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_Idle.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_Chase.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_Attack.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_Dead.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_General.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Ready_Combat.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Damage.h">
+      <Filter>02.GameObject\00.Static\03.UI\03.Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Collision_Manager.h">
+      <Filter>96.Manager\00.Collision_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_Hit.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Idle.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Attack.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Shield_Smash.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Shield_Smash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_Attack.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_Chase.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_Dead.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_Hit.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_Idle.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_Wait.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_Ready_Combat.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject_Static.h">
+      <Filter>02.GameObject\00.Abstract\03.GameObject_Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject_Weapon.h">
+      <Filter>02.GameObject\00.Abstract\01.GameObject_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IceBolt.h">
+      <Filter>02.GameObject\00.Static\04.Effect\06.IceBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Back.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\00.Back</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Mask.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\02.Mask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Bar.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\01.Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_IceBolt.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\IceBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Icon.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\03.Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_IconMask.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\04.IconMask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Spin_Attack.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Spin_Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Chase.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Dead.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Idle.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Ready_Combat.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Wait.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Breath.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Breath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Electric_Whip.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Electric_Whip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Fire_Ring.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Fire_Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Balrog_Kick.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Kick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_BossBar.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\05.BossBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_BossMask.h">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\06.BossMask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Masq.h">
+      <Filter>02.GameObject\00.Static\01.Player\03.Masq%28Healer%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Mesh.h">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Particle.h">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Rect.h">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\EffectGroup.h">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Staff.h">
+      <Filter>02.GameObject\00.Static\02.Weapon\02.Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_General.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Idle.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Ready_Combat.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Meteo_Strike.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Meteo_Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Player_Manager.h">
+      <Filter>02.GameObject\00.Static\01.Player\00.Player_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sword.h">
+      <Filter>02.GameObject\00.Static\02.Weapon\00.Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject_Player.h">
+      <Filter>02.GameObject\00.Abstract\04.GameObject_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Ready_FireBall.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Cast_FireBall.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Meteo_Target.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Meteo_Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Ready_Meteo.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Meteo_Strike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Ready_Combat.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Attack.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Idle.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Dead.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Crack.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Crack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Chase.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Spell.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Wait.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_HpBar.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\Monster_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Hit.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Trail.h">
+      <Filter>02.GameObject\00.Static\02.Weapon\03.Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skeleton_Stab.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Stab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_Ready_Combat.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain_Stage2.h">
+      <Filter>02.GameObject\02.Stage\00.Terrain\Terrain_Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Stage2.h">
+      <Filter>01.Scene\01.Stage\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Stage.h">
+      <Filter>01.Scene\01.Stage\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Quatra.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Quatra_Breath.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Quatra_Breath_End.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath_End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Quatra_Breath_Start.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Quatra_Ready_Combat.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Quatra_Wait.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Ready_Combat.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Ready_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Idle.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Attack.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Chase.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Chase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Dead.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Wait.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_FireSpurt.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\FireSpurt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Earthquake.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Earthquake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Light_Fire.h">
+      <Filter>02.GameObject\00.Static\04.Effect\01.Light_Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Combat.h">
+      <Filter>03.GameEvent\01.Stage1\01.Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Stage2_Opening.h">
+      <Filter>03.GameEvent\02.Stage2\00.Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Stage2_Quatra.h">
+      <Filter>03.GameEvent\02.Stage2\02.Quatra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Stage2_Flogas.h">
+      <Filter>03.GameEvent\02.Stage2\03.Flogas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Blood.h">
+      <Filter>02.GameObject\00.Static\04.Effect\02.Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject_Monster.h">
+      <Filter>02.GameObject\00.Abstract\05.GameObject_Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Soldier_DownAndUp.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\DownAndUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect.h">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Gate.h">
+      <Filter>02.GameObject\00.Static\04.Effect\03.Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_AI.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_AI.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Combat_End.h">
+      <Filter>03.GameEvent\01.Stage1\01.Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Boss_End.h">
+      <Filter>03.GameEvent\01.Stage1\02.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameEvent_Stage1_Boss.h">
+      <Filter>03.GameEvent\01.Stage1\02.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\HitFire.h">
+      <Filter>02.GameObject\00.Static\04.Effect\03.HitFire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Stab.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Stab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Flogas_Summon.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Summon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Guard.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_Taunt.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Taunt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_End_Combat.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\End_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Direction_Arrow.h">
+      <Filter>02.GameObject\00.Static\04.Effect\04.Diretion_Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ExclamationMark.h">
+      <Filter>02.GameObject\00.Static\04.Effect\05.ExclamationMark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_FireShock.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Fire_Shock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Back_Logo.h">
+      <Filter>02.GameObject\01.Logo\Back_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Title_Logo.h">
+      <Filter>02.GameObject\01.Logo\Title_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Default.h">
+      <Filter>02.GameObject\00.Static\00.Camera\00.Camera_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_End_Combat.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\End_Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Meteo_Strike.h">
+      <Filter>02.GameObject\00.Static\04.Effect\07.MeteoStrike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Hit.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Lups_DownAndUp.h">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\DownAndUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_DownAndUp.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\DownAndUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost_Mage_DownAndUp.h">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\DownAndUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Heal.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Heal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sire_Heal_Target.h">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Heal</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_QuatraBreath.h">
+      <Filter>02.GameObject\00.Static\04.Effect\08.QuatraBreath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Logo.cpp">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Loading.cpp">
+      <Filter>01.Scene\02.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>02.GameObject\02.Stage\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkyBox.cpp">
+      <Filter>02.GameObject\02.Stage\01.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Dynamic.cpp">
+      <Filter>02.GameObject\00.Static\00.Camera\02.Camera_Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject_Dynamic.cpp">
+      <Filter>02.GameObject\00.Abstract\00.GameObject_Dyanmic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sword.cpp">
+      <Filter>02.GameObject\00.Static\02.Weapon\00.Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_CutScene.cpp">
+      <Filter>02.GameObject\00.Static\00.Camera\03.Camera_CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_At.cpp">
+      <Filter>02.GameObject\00.Static\00.Camera\03.Camera_CutScene\01.At</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Eye.cpp">
+      <Filter>02.GameObject\00.Static\00.Camera\03.Camera_CutScene\00.Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent.cpp">
+      <Filter>03.GameEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Manager.cpp">
+      <Filter>03.GameEvent\00.GameEvent_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Frame.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\00.UI_Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Resources_Loader.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\02.UI_Resources_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Static.cpp">
+      <Filter>02.GameObject\00.Static\00.Camera\01.Camera_Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shield.cpp">
+      <Filter>02.GameObject\00.Static\02.Weapon\01.Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Opening.cpp">
+      <Filter>03.GameEvent\01.Stage1\00.Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_Wait.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_Idle.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_Chase.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_Attack.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_Dead.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_General.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Ready_Combat.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Damage.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\03.Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Collision_Manager.cpp">
+      <Filter>96.Manager\00.Collision_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_Hit.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Idle.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Attack.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Shield_Smash.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Shield_Smash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_Attack.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_Chase.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_Dead.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_Hit.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_Wait.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_Ready_Combat.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject_Static.cpp">
+      <Filter>02.GameObject\00.Abstract\03.GameObject_Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject_Weapon.cpp">
+      <Filter>02.GameObject\00.Abstract\01.GameObject_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\IceBolt.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\06.IceBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Back.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\00.Back</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Mask.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\02.Mask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Bar.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\01.Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_IceBolt.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\IceBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Icon.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\03.Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_IconMask.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\04.IconMask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Spin_Attack.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Spin_Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Wait.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Ready_Combat.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Idle .cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Dead.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Chase.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Breath.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Breath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Electric_Whip.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Electric_Whip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Fire_Ring.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Fire_Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Balrog_Kick.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\02.Balrog\Kick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_BossBar.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\05.BossBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_BossMask.cpp">
+      <Filter>02.GameObject\00.Static\03.UI\01.UI\06.BossMask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Masq.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\03.Masq%28Healer%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Mesh.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Particle.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Rect.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup\Effect_Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EffectGroup.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Staff.cpp">
+      <Filter>02.GameObject\00.Static\02.Weapon\02.Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_General.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Idle.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Ready_Combat.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Meteo_Strike.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Meteo_Strike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player_Manager.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\00.Player_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject_Player.cpp">
+      <Filter>02.GameObject\00.Abstract\04.GameObject_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Ready_FireBall.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Cast_FireBall.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Meteo_Target.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Meteo_Strike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Ready_Meteo.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Meteo_Strike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Ready_Combat.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Attack.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Chase.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Crack.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Crack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Dead.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Idle.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Spell.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Wait.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_Idle.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_HpBar.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\Monster_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Hit.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Trail.cpp">
+      <Filter>02.GameObject\00.Static\02.Weapon\03.Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skeleton_Stab.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\03.Skeleton\State\Stab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_Ready_Combat.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain_Stage2.cpp">
+      <Filter>02.GameObject\02.Stage\00.Terrain\Terrain_Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Stage2.cpp">
+      <Filter>01.Scene\01.Stage\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Stage.cpp">
+      <Filter>01.Scene\01.Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Quatra.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Quatra_Breath.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Quatra_Breath_End.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath_End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Quatra_Breath_Start.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Breath_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Quatra_Ready_Combat.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Quatra_Wait.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\05.Quatra\State\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Ready_Combat.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Ready_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Idle.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Attack.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Chase.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Chase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Dead.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Wait.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_FireSpurt.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\FireSpurt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Earthquake.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Earthquake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Light_Fire.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\01.Light_Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Stage2_Opening.cpp">
+      <Filter>03.GameEvent\02.Stage2\00.Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Stage2_Quatra.cpp">
+      <Filter>03.GameEvent\02.Stage2\02.Quatra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Stage2_Flogas.cpp">
+      <Filter>03.GameEvent\02.Stage2\03.Flogas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Combat.cpp">
+      <Filter>03.GameEvent\01.Stage1\01.Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Blood.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\02.Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject_Monster.cpp">
+      <Filter>02.GameObject\00.Abstract\05.GameObject_Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Soldier_DownAndUp.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\00.Ghost_Soldier\State\DownAndUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\00.EffectGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Gate.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\03.Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_AI.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_AI.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Combat_End.cpp">
+      <Filter>03.GameEvent\01.Stage1\01.Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Boss.cpp">
+      <Filter>03.GameEvent\01.Stage1\02.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameEvent_Stage1_Boss_End.cpp">
+      <Filter>03.GameEvent\01.Stage1\02.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\HitFire.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\03.HitFire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Stab.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Stab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Flogas_Summon.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\06.Flogas\State\Summon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Guard.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_Taunt.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\Taunt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_End_Combat.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\End_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Direction_Arrow.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\04.Diretion_Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ExclamationMark.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\05.ExclamationMark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_FireShock.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Fire_Shock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Logo.cpp">
+      <Filter>02.GameObject\01.Logo\Back_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Title_Logo.cpp">
+      <Filter>02.GameObject\01.Logo\Title_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Default.cpp">
+      <Filter>02.GameObject\00.Static\00.Camera\00.Camera_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_End_Combat.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\End_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Meteo_Strike.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\07.MeteoStrike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Hit.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Lups_DownAndUp.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\01.Lups%28Knight%29\State\DownAndUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_DownAndUp.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\DownAndUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost_Mage_DownAndUp.cpp">
+      <Filter>02.GameObject\02.Stage\02.Monster\01.Ghost_Mage\State\DownAndUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Heal.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Heal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sire_Heal_Target.cpp">
+      <Filter>02.GameObject\00.Static\01.Player\02.Sire%28Magical%29\State\Heal</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_QuatraBreath.cpp">
+      <Filter>02.GameObject\00.Static\04.Effect\08.QuatraBreath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Deafult.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Terrain.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Mesh.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_SkyBox.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Damage.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_UI.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Effect.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Trail.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Monster_UI.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Logo.fx">
+      <Filter>97.Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

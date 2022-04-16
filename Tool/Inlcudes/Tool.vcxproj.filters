@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Etc">
+      <UniqueIdentifier>{77f8df6a-5d3c-4405-94bd-5330801509de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="99.Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="00.App">
+      <UniqueIdentifier>{7ea80ccd-cd80-4a95-92fc-2e08b110c1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MainFrame">
+      <UniqueIdentifier>{f8cb89cd-b686-45d6-a168-3cef6dd64e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.View">
+      <UniqueIdentifier>{8aab2f9d-f843-4b1c-a46e-9671117e6bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form">
+      <UniqueIdentifier>{28daf153-bdc1-45ab-bfd3-f7fa8cc4a12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.MainApp">
+      <UniqueIdentifier>{da72c27f-cd96-491a-8a52-d1a61647f2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Scene">
+      <UniqueIdentifier>{ddd94923-833f-4347-a0fc-b5510a1dda99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject">
+      <UniqueIdentifier>{8fb39b44-1378-4711-b420-df97a48edfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\00.Axis">
+      <UniqueIdentifier>{aa1929c9-184d-4566-a082-94a90bbc82c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\01.Camera">
+      <UniqueIdentifier>{867c5d23-987e-4fba-a48a-400ba8722845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab">
+      <UniqueIdentifier>{2023207b-07cf-4c49-93df-2a9256de9be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\00.Terrain">
+      <UniqueIdentifier>{ac473d66-19d1-40a1-b5a8-f5467a0b7b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\01.Mesh">
+      <UniqueIdentifier>{d5fe5c44-5efa-4684-9399-d436168f4b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\01.Camera\DynamicCamera">
+      <UniqueIdentifier>{c8e7a257-d503-4877-b398-e6af0f335cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\01.Camera\CutSceneCamera">
+      <UniqueIdentifier>{1ee4f759-1897-420a-b3c3-b92d6e668b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\02.Terrain">
+      <UniqueIdentifier>{fee28728-6323-41aa-ad20-46cb2bfe7663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\03.Camera">
+      <UniqueIdentifier>{7838b56a-ac57-46b7-acef-3baafe40abc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\04.Effect">
+      <UniqueIdentifier>{08e9207c-07e4-4bef-8548-53b46c744ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\02.NavigationMesh">
+      <UniqueIdentifier>{311214a1-de75-423a-9c5f-a5d0dae7d968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\05.Animation">
+      <UniqueIdentifier>{71bef7f1-d4f8-4220-a81a-6cd5733f95ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\03.Mesh_NavigationController">
+      <UniqueIdentifier>{131c5bc5-121e-4e50-9f7b-a0cd4abaead3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\04.Mesh_Object">
+      <UniqueIdentifier>{4725f85e-5d78-43bb-8119-d1e34beb7591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\04.Mesh_Object\02.Object_Equipment">
+      <UniqueIdentifier>{51d39257-2ca5-4f9d-aa31-60e4898fc5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\04.Mesh_Object\01.Object_Dynamic">
+      <UniqueIdentifier>{f1a7f1da-3723-4ad5-8544-334b64577f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\04.Mesh_Object\00.Object_Static">
+      <UniqueIdentifier>{7e64fa1a-2456-43d9-9fdd-2bb48eabc5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{8a64146e-62e4-4a8a-8b7b-e658e4c884de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\01.Dialog">
+      <UniqueIdentifier>{5113eb47-81c6-4391-b7ba-6bbc93467941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\01.Dialog\00.UnitTool">
+      <UniqueIdentifier>{de5434a5-e730-4e3a-8e01-ce30e9e5e61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\01.Camera\CutSceneCamera\00. Eye">
+      <UniqueIdentifier>{7bbd9644-52e8-46e6-9a7f-7475f2a1e1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\01.Camera\CutSceneCamera\01. At">
+      <UniqueIdentifier>{dc5a7b8f-fd86-45fd-97e6-f0870d629b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\06.UI">
+      <UniqueIdentifier>{b4edd182-c4d4-4148-941a-18e1e4356a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\05.UI">
+      <UniqueIdentifier>{c413df8b-5db6-4710-b4a3-5bc72932f08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\05.UI\00.UI_Frame">
+      <UniqueIdentifier>{c5559d5f-267f-4787-bf40-a89774404883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\05.UI\01.UI">
+      <UniqueIdentifier>{339ae7d0-9667-43f1-827a-d4b2c92ae37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\05.UI\02.UI_Resource_Loader">
+      <UniqueIdentifier>{37cdb62a-29bf-4f2f-b4fe-77a027d2ab58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\06.Effect">
+      <UniqueIdentifier>{ec3a68c0-ecab-4b81-b6b1-47cac3de8f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\06.Effect\01.Effect_Particle">
+      <UniqueIdentifier>{e27616b0-1815-4679-a627-73ecf3456e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\06.Effect\03.Effect_Rect">
+      <UniqueIdentifier>{63d9070e-22fe-4ffe-bcee-400b41f900db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\06.Effect\00.EffectGroup">
+      <UniqueIdentifier>{02feb7a5-c3fa-4feb-8dab-f9dbb0f8f72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\06.Effect\02.Effect_Mesh">
+      <UniqueIdentifier>{f014bc99-ca4a-4142-b6a0-24dd8bfe05a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Form\00.Tab\07.Light">
+      <UniqueIdentifier>{f76314aa-f839-43e5-b865-c3006347f37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.GameObject\07.Debug_Spehre">
+      <UniqueIdentifier>{6445c92a-b951-4c72-bce0-b872118351d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>99.Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00.App</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>01.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>02.View</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlForm.h">
+      <Filter>03.Form</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTab.h">
+      <Filter>03.Form\00.Tab\03.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTab.h">
+      <Filter>03.Form\00.Tab\04.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshTab.h">
+      <Filter>03.Form\00.Tab\01.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTab.h">
+      <Filter>03.Form\00.Tab\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationMeshTab.h">
+      <Filter>03.Form\00.Tab\02.NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTab.h">
+      <Filter>03.Form\00.Tab\05.Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_MapEdit.h">
+      <Filter>05.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainApp.h">
+      <Filter>04.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Equipment.h">
+      <Filter>06.GameObject\04.Mesh_Object\02.Object_Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Mesh.h">
+      <Filter>06.GameObject\04.Mesh_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Static.h">
+      <Filter>06.GameObject\04.Mesh_Object\00.Object_Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Dynamic.h">
+      <Filter>06.GameObject\04.Mesh_Object\01.Object_Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Mesh_Navigation_Controller.h">
+      <Filter>06.GameObject\03.Mesh_NavigationController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Terrain.h">
+      <Filter>06.GameObject\02.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Axis.h">
+      <Filter>06.GameObject\00.Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Dynamic.h">
+      <Filter>06.GameObject\01.Camera\DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_CutScene.h">
+      <Filter>06.GameObject\01.Camera\CutSceneCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>03.Form\01.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Eye.h">
+      <Filter>06.GameObject\01.Camera\CutSceneCamera\00. Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_At.h">
+      <Filter>06.GameObject\01.Camera\CutSceneCamera\01. At</Filter>
+    </ClInclude>
+    <ClInclude Include="UITab.h">
+      <Filter>03.Form\00.Tab\06.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Frame.h">
+      <Filter>06.GameObject\05.UI\00.UI_Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI.h">
+      <Filter>06.GameObject\05.UI\01.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\UI_Resources_Loader.h">
+      <Filter>06.GameObject\05.UI\02.UI_Resource_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect.h">
+      <Filter>06.GameObject\06.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Mesh.h">
+      <Filter>06.GameObject\06.Effect\02.Effect_Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Particle.h">
+      <Filter>06.GameObject\06.Effect\01.Effect_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Rect.h">
+      <Filter>06.GameObject\06.Effect\03.Effect_Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\EffectGroup.h">
+      <Filter>06.GameObject\06.Effect\00.EffectGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="LightTab.h">
+      <Filter>03.Form\00.Tab\07.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Debug_Spehre.h">
+      <Filter>06.GameObject\07.Debug_Spehre</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>99.Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.App</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>01.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>02.View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>04.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlForm.cpp">
+      <Filter>03.Form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Axis.cpp">
+      <Filter>06.GameObject\00.Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTab.cpp">
+      <Filter>03.Form\00.Tab\03.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectTab.cpp">
+      <Filter>03.Form\00.Tab\04.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshTab.cpp">
+      <Filter>03.Form\00.Tab\01.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTab.cpp">
+      <Filter>03.Form\00.Tab\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>06.GameObject\02.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationMeshTab.cpp">
+      <Filter>03.Form\00.Tab\02.NavigationMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTab.cpp">
+      <Filter>03.Form\00.Tab\05.Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_MapEdit.cpp">
+      <Filter>05.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Equipment.cpp">
+      <Filter>06.GameObject\04.Mesh_Object\02.Object_Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Mesh.cpp">
+      <Filter>06.GameObject\04.Mesh_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Static.cpp">
+      <Filter>06.GameObject\04.Mesh_Object\00.Object_Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Dynamic.cpp">
+      <Filter>06.GameObject\04.Mesh_Object\01.Object_Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Mesh_Navigation_Controller.cpp">
+      <Filter>06.GameObject\03.Mesh_NavigationController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Dynamic.cpp">
+      <Filter>06.GameObject\01.Camera\DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_CutScene.cpp">
+      <Filter>06.GameObject\01.Camera\CutSceneCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>03.Form\01.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Eye.cpp">
+      <Filter>06.GameObject\01.Camera\CutSceneCamera\00. Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_At.cpp">
+      <Filter>06.GameObject\01.Camera\CutSceneCamera\01. At</Filter>
+    </ClCompile>
+    <ClCompile Include="UITab.cpp">
+      <Filter>03.Form\00.Tab\06.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Frame.cpp">
+      <Filter>06.GameObject\05.UI\00.UI_Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI.cpp">
+      <Filter>06.GameObject\05.UI\01.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI_Resources_Loader.cpp">
+      <Filter>06.GameObject\05.UI\02.UI_Resource_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect.cpp">
+      <Filter>06.GameObject\06.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Mesh.cpp">
+      <Filter>06.GameObject\06.Effect\02.Effect_Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Particle.cpp">
+      <Filter>06.GameObject\06.Effect\01.Effect_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Rect.cpp">
+      <Filter>06.GameObject\06.Effect\03.Effect_Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\EffectGroup.cpp">
+      <Filter>06.GameObject\06.Effect\00.EffectGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="LightTab.cpp">
+      <Filter>03.Form\00.Tab\07.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Debug_Spehre.cpp">
+      <Filter>06.GameObject\07.Debug_Spehre</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
